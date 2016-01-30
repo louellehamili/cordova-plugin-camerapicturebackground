@@ -91,7 +91,6 @@ public class CameraSurfacePreview extends Service {
 				if (params.getSceneMode() != null) {
 				    params.setSceneMode(Parameters.SCENE_MODE_STEADYPHOTO);
 				}
-				params.setFocusMode(Parameters.FOCUS_MODE_FIXED);
 				params.setRotation(rotation);
 				camera.setParameters(params);
 
